@@ -10,7 +10,6 @@ def compact(src):
 
     for i in range(1, len(src)):
         new_prev = src[i]
-        i += 1
         if prev == new_prev:
             count +=1
 
@@ -23,5 +22,8 @@ def compact(src):
 
 
 src = 'aaaabbb'
+print("src='{}'".format(src))
+print("output='{}'".format(compact(src)))
+src = 'aaaabccccaaaaacccfg'
 print("src='{}'".format(src))
 print("output='{}'".format(compact(src)))
