@@ -10,4 +10,4 @@ for i in record:
         
 
 print("일일 매출 기록: ", record)
-print("지난 10일 동안 전일대비 매출이 감소한 날은 '{}'일입니다.".format(count))
+print("지난 10일 동안 전일대비 매출이 감소한 날은 {}일입니다.".format(count))
